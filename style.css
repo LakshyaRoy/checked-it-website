@@ -7,6 +7,7 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -165,8 +166,8 @@ li a {
   background: linear-gradient(
     180deg,
     rgba(16, 33, 105, 1) 0%,
-    /* rgb(16, 32, 105) 15%, */ rgba(17, 42, 131, 1) 35%,
-    rgba(62, 108, 208, 1) 100%
+    /* rgb(16, 32, 105) 15%, */ rgb(17, 42, 131) 35%,
+    rgb(62, 108, 208) 100%
   );
 }
 
@@ -288,7 +289,7 @@ li a {
 }
 
 .main-logo {
-  width: 110rem;
+  max-width: 110rem;
   height: auto;
 }
 
@@ -342,7 +343,7 @@ li a {
 
 .grids {
   display: grid;
-  width: 120rem;
+  max-width: 120rem;
   margin: 5rem auto 3rem auto;
 }
 .grid--5--cols {
