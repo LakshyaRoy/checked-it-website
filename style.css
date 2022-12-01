@@ -70,7 +70,11 @@ li a {
 }
 .img {
   height: 65px;
-  width: 140px;
+  width: 215px;
+}
+.img img {
+  height: 100px;
+  width: 216px;
 }
 
 .eye-img {
@@ -344,7 +348,9 @@ li a {
 .grids {
   display: grid;
   max-width: 120rem;
-  margin: 5rem auto 3rem auto;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  grid-gap: 8rem;
 }
 .grid--5--cols {
   grid-template-columns: repeat(5, 1fr);
@@ -424,4 +430,10 @@ li a {
 .social-links div ion-icon {
   font-size: 1.5rem;
   color: #fff;
+}
+
+.grid-tools {
+  display: grid;
+  justify-content: center;
+  margin-left: 4rem;
 }
